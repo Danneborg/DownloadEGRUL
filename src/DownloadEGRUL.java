@@ -9,7 +9,8 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-
+/*
+ * Just a commit to check it is working*/
 public class DownloadEGRUL {
     private static String targetURL = "https://egrul.nalog.ru/";
 
