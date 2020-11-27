@@ -19,7 +19,8 @@ public class DownloadEGRUL {
         return targetURL + "vyp-download/" + secondToken;
 
     }
-
+    /*
+    * Just a commit to check it is working*/
     private static void LoadFile(String ogrn, String name) {
         //Получаем токен для огрн
         JSONObject token = new JSONObject(doPostToken(ogrn));
