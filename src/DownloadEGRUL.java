@@ -20,6 +20,9 @@ public class DownloadEGRUL {
         return targetURL + "vyp-download/" + secondToken;
 
     }
+    private void printt(){
+        System.out.println("PRINT!");
+    }
     /*
     * Just a commit to check it is working*/
     private static void LoadFile(String ogrn, String name) {
